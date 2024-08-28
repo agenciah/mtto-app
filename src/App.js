@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReportForm from './components/ReportForm';
+import { Container, Grid } from '@mui/material';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container sx={{ mt: 4 }}>
+      <Grid container spacing={2} justifyContent="center">
+        <Grid item xs={12} md={6}>
+          {/* El componente ReportForm ahora manejará la generación y descarga del PDF */}
+          <ReportForm />
+        </Grid>
+      </Grid>
+    </Container>
   );
 }
 

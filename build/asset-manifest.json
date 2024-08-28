@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mtto-app/build/static/css/main.e6c13ad2.css",
+    "main.js": "/mtto-app/build/static/js/main.a1ad5ab9.js",
+    "static/js/239.e4ecaf58.chunk.js": "/mtto-app/build/static/js/239.e4ecaf58.chunk.js",
+    "static/js/213.7ec59a22.chunk.js": "/mtto-app/build/static/js/213.7ec59a22.chunk.js",
+    "static/js/732.b6842049.chunk.js": "/mtto-app/build/static/js/732.b6842049.chunk.js",
+    "static/js/453.f8c065eb.chunk.js": "/mtto-app/build/static/js/453.f8c065eb.chunk.js",
+    "static/media/reporte de mantenimiento.jpg": "/mtto-app/build/static/media/reporte de mantenimiento.a3837376a32ace1da58a.jpg",
+    "index.html": "/mtto-app/build/index.html",
+    "main.e6c13ad2.css.map": "/mtto-app/build/static/css/main.e6c13ad2.css.map",
+    "main.a1ad5ab9.js.map": "/mtto-app/build/static/js/main.a1ad5ab9.js.map",
+    "239.e4ecaf58.chunk.js.map": "/mtto-app/build/static/js/239.e4ecaf58.chunk.js.map",
+    "213.7ec59a22.chunk.js.map": "/mtto-app/build/static/js/213.7ec59a22.chunk.js.map",
+    "732.b6842049.chunk.js.map": "/mtto-app/build/static/js/732.b6842049.chunk.js.map",
+    "453.f8c065eb.chunk.js.map": "/mtto-app/build/static/js/453.f8c065eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a1ad5ab9.js"
+  ]
+}
