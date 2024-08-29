@@ -1,18 +1,28 @@
 import React from 'react';
-import ReportForm from './components/ReportForm';
-import { Container, Grid } from '@mui/material';
+import ChecklistForm from './components/CheckListForm';
+import { Container, Typography, AppBar, Toolbar, CssBaseline } from '@mui/material';
+import logo from "./images/Residentia Logo without name.png"
 
 function App() {
   return (
-    <Container sx={{ mt: 4 }}>
-      <Grid container spacing={2} justifyContent="center">
-        <Grid item xs={12} md={6}>
-          {/* El componente ReportForm ahora manejará la generación y descarga del PDF */}
-          <ReportForm />
-        </Grid>
-      </Grid>
-    </Container>
+    <div style={{ backgroundColor: 'rgb(38, 169, 225)', minHeight: '100vh' }}>
+      <AppBar position="static" style={{ backgroundColor: 'rgb(1, 98, 153)' }}>
+        <Toolbar>
+          <img src={logo} alt="Agencia Habitat Logo" style={{ height: 40, marginRight: 15 }} />
+          <Typography variant="h6" style={{ color: 'white', flexGrow: 1 }}>
+            Agencia Habitat
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      <Container>
+        <Container maxWidth="md">
+          <CssBaseline />
+          <ChecklistForm />
+        </Container>
+      </Container>
+    </div>
   );
 }
 
 export default App;
+
