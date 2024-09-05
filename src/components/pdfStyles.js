@@ -15,7 +15,7 @@ export const pdfStyles = {
     color: '#000000',
   },
   comments: {
-    title: 'Comentarios:',
+    title: '',
     x: 10,
     y: 100,
     fontSize: 12,
